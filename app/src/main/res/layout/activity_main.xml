@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fruit_list_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    This is a activity_main for single-page model -->
+
+<!--        import the FruitListFragment-->
+    <fragment
+        android:id="@+id/fruit_list_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.example.assignment2_fruits.FruitListFragment"/>
+
+
+</FrameLayout>

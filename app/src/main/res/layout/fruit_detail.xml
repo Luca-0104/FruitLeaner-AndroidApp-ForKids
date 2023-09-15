@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    import the right-part fragment of double-page model (FruitDetailFragment)
+        i.e. import the layout of 'fruit_detail_fragment'-->
+    <fragment
+        android:id="@+id/fruit_detail_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.example.assignment2_fruits.FruitDetailFragment"/>
+
+</LinearLayout>

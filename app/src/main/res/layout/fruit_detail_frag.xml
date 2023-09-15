@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <!--    The fragment of fruit detail-->
+        <LinearLayout
+            android:id="@+id/ll_fruit_detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:visibility="invisible">
+
+            <!--        The picture of the fruit-->
+            <ImageView
+                android:id="@+id/iv_fruit_pic"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"/>
+
+            <!--        A big capital letter of the fruit-->
+            <TextView
+                android:id="@+id/tv_cap_letter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="80sp"
+                android:layout_gravity="center_horizontal"/>
+
+            <!--        The name of the fruit-->
+            <TextView
+                android:id="@+id/tv_fruit_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="55sp"
+                android:textColor="@color/purple_200"
+                android:layout_gravity="center_horizontal"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+<!--    The divider line of left and right part-->
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#000000"/>
+
+</RelativeLayout>
